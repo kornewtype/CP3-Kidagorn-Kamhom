@@ -1,9 +1,9 @@
 print("-- Your Score --")
 
-English = int(input("English Score = "))
-Business = int(input("General Business Score = "))
-Com_sys = int(input("Introduction to Computer System Score = "))
-Com_pro = int(input("Computer Programing Score = "))
+English = float(input("English Score = "))
+Business = float(input("General Business Score = "))
+Com_sys = float(input("Introduction to Computer System Score = "))
+Com_pro = float(input("Computer Programing Score = "))
 
 print("Foundation English = ",English)
 print("General Business = ",Business)
