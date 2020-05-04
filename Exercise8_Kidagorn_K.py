@@ -16,13 +16,10 @@ if usernameInput == ("admin") and passwordInput == "1234":
     ProductChoose = int(input("Please Select Product No. : "))
     ProductQuantity = int(input("Tell me Your Quantity : "))
     if ProductChoose == 1:
-        total1 = int(ProductQuantity)
-        print("Total Price for Smoke Detector : ",total1*FA1P)
+        print("Total Price for Smoke Detector : ",ProductQuantity*FA1P)
     elif ProductChoose == 2:
-        total2 = int(ProductQuantity)
-        print("Total Price for Fire Alarm Control Panel : ",total2*FA2P)
+        print("Total Price for Fire Alarm Control Panel : ",ProductQuantity*FA2P)
     elif ProductChoose == 3:
-        total3 = int(ProductQuantity)
-        print("Total Price for Alarm Bell : ",total3*FA3P, " THB")
+        print("Total Price for Alarm Bell : ",ProductQuantity*FA3P, " THB")
 else:
     print("Sorry! Wrong!! Username or Password")
