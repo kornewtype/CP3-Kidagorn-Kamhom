@@ -10,9 +10,9 @@ if usernameInput == ("admin") and passwordInput == "1234":
     FA1P = int(2500)
     FA2P = int(45000)
     FA3P = int(1600)
-    print("1. ",FA1, " : ",FA1P," Per EA")
-    print("2. ",FA2, " : ",FA2P," Per EA")
-    print("3. ",FA3, " : ",FA3P," Per EA")
+    print("1. ",FA1, " : ",FA1P," THB Per EA")
+    print("2. ",FA2, " : ",FA2P," THB Per EA")
+    print("3. ",FA3, " : ",FA3P," THB Per EA")
     ProductChoose = int(input("Please Select Product No. : "))
     ProductQuantity = int(input("Tell me Your Quantity : "))
     if ProductChoose == 1:
@@ -23,6 +23,6 @@ if usernameInput == ("admin") and passwordInput == "1234":
         print("Total Price for Fire Alarm Control Panel : ",total2*FA2P)
     elif ProductChoose == 3:
         total3 = int(ProductQuantity)
-        print("Total Price for Alarm Bell : ",total3*FA3P)
+        print("Total Price for Alarm Bell : ",total3*FA3P, " THB")
 else:
-    print("Sorry! Not Found Username or Password")
+    print("Sorry! Wrong!! Username or Password")
